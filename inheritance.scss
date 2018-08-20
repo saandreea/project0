@@ -1,0 +1,28 @@
+$font: Verdana;
+
+%message {
+  font-size: 14px;
+  padding: 20px;
+  margin: 20 px;
+  color: #1b0b0b;
+  border: 1px solid darkgray;
+}
+
+.primul {
+  @extend %message;
+  background-color: lightgray;
+  font-weight: bold;
+  font-family: $font;
+}
+
+.doilea {
+  @extend %message;
+  font-family: $font;
+}
+
+p {
+  font-size: 20px;
+  li {
+    color: green;
+  }
+}

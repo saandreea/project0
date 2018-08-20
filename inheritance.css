@@ -1,0 +1,26 @@
+.doilea, .primul {
+  font-size: 14px;
+  padding: 20px;
+  margin: 20 px;
+  color: #1b0b0b;
+  border: 1px solid darkgray;
+}
+
+.primul {
+  background-color: lightgray;
+  font-weight: bold;
+  font-family: Verdana;
+}
+
+.doilea {
+  font-family: Verdana;
+}
+
+p {
+  font-size: 20px;
+}
+p li {
+  color: green;
+}
+
+/*# sourceMappingURL=inheritance.css.map */
