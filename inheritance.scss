@@ -8,16 +8,19 @@ $font: Verdana;
   border: 1px solid darkgray;
 }
 
-.primul {
-  @extend %message;
-  background-color: lightgray;
-  font-weight: bold;
+.row {
   font-family: $font;
-}
 
-.doilea {
-  @extend %message;
-  font-family: $font;
+  .primul {
+    @extend %message;
+    background-color: lightgray;
+    font-weight: bold;
+  }
+
+  .doilea {
+    @extend %message;
+    background-color: palevioletred;
+  }
 }
 
 p {

@@ -24,23 +24,19 @@
     </style>
   </head>
   <body>
-    {% block body %}
-
     <nav class="navbar navbar-light" style="background-color: #563d7c;">
-        <a class="navbar-brand" href="index.html">Grasu's page</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="about.html">About</a>
-            <a class="nav-item nav-link" href="foto.html">Photos</a>
-            <a class="nav-item nav-link disabled" href="contact.html">Contact</a>
-          </div>
+      <a class="navbar-brand" href="index.html">Grasu's page</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="about.html">About</a>
+          <a class="nav-item nav-link" href="foto.html">Photos</a>
+          <a class="nav-item nav-link disabled" href="contact.html">Contact</a>
         </div>
-      </nav>
-    
-    {% endblock %}
+      </div>
+    </nav>
     
     <div class="container">
       <div class="jumbotron">
@@ -50,11 +46,12 @@
           It is a 9 month old white female kitten. Grasu's coat has a plush texture and it's tail is big and fluffy.
           It is also called Codalau.</p>
       </div>
+    </div>
 
-      <p class="listamea">See more: </p>
-      <ul>
-        <li><a href="about.html"><button type="button" class="btn btn-link">Find more about Mirti</button> </a></li>
-        <li><a href="foto.html"> <button type="button" class="btn btn-link">Photo Gallery</button> </a></li> 
-      </ul>
+  <p class="listamea">See more: </p>
+  <ul>
+    <li><a href="about.html"><button type="button" class="btn btn-link">Find more about Mirti</button> </a></li>
+    <li><a href="foto.html"> <button type="button" class="btn btn-link">Photo Gallery</button> </a></li> 
+  </ul>
   </body>
 </html>
